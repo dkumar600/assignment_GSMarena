@@ -1,0 +1,127 @@
+:root{
+    --red: red;
+    --gray:gray;
+}
+body{
+    margin: 0;
+    padding:0;
+    display: flex;
+    
+    width:100vw;
+    height:auto;
+    justify-content: center;
+}
+header{
+    width:70vw;
+    height:2rem;
+    background-color: var(--gray);
+    color:white;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    
+    list-style-type: none;
+    margin:10px 0px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+main{
+    display: flex;
+    width:70vw;
+}
+.nothing{
+    display:inherit;
+    width: 25vw;
+}
+.main-container{
+    display: flex;
+    width: 45vw;
+    flex-direction: column;
+}
+.main-container div{
+    display:flex;
+    flex-direction: column;
+    width: 45vw
+}
+.main-container div > h1{
+    display:flex;
+    justify-content: flex-start;
+    padding: 0 5px;
+}
+header nav ul li{
+    margin:0 20px;
+}
+.specs tr td{
+    border-right: 1px solid gray;
+}
+td>li{
+    margin-left:20px;
+}
+ul,li{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+td>h1{
+    display: flex;
+    color:white;
+    margin:0;
+    padding: 0;
+    justify-content: center;
+}
+td>h2{
+    display: flex;
+    margin:0;
+    padding: 0;
+    justify-content: center;
+}
+div>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color:white;
+}
+div ul li>h4{
+    width:9vw;
+    margin:5px 0;
+    padding:5px 0;
+}
+div ul>li:hover{
+    background-color: brown;
+}
+.main-content{
+    margin:10px 0;
+   
+    font-size: small;
+    padding: 0;
+
+}
+.main-content div{
+    margin: 3px 0;
+    background-color: aliceblue;
+}
+.main-content div p{
+    margin:0;
+}
+.main-content div table{
+    border-collapse: collapse;
+}
+.main-content div table tr td{
+    border-bottom: 1px solid gray;
+    
+}
+.main-content div table tr td>h4{
+    margin:0;
+    padding:0;
+}
+.main-content div table tr td>h5{
+    margin:0;
+    padding:0;
+}
+.fs-row{
+    padding-right: 20px;
+}
+
